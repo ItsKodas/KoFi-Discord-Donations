@@ -57,7 +57,7 @@ app.post('/donation', async (req, res) => {
             .setTitle(`${Data.from_name} donated $${Data.amount} ${Data.currency}!`)
             .setColor(Discord.resolveColor('#41e049'))
             .setThumbnail('https://yt3.ggpht.com/SFThBPrdZzhrnNqBfmV3ImP3xLxgRBeD9eaSi8pQUisSJfOzl0c8gQ3EqyQykEewsnQEkanp=s900-c-k-c0x00ffffff-no-rj')
-            .setDescription(Data.message ? `>>> ${Data.message}\n[View Donation](${Data.url})` : `[View Donation](${Data.url})`)
+            .setDescription(Data.message ? `>>> ${Data.message}\n[Donate to Horizons](https://ko-fi.com/horizons)` : `[Donate to Horizons](https://ko-fi.com/horizons)`)
             .setFooter({
                 text: `Thankyou for Donating 🥰`
             })
@@ -70,7 +70,7 @@ app.post('/donation', async (req, res) => {
             .setTitle(`${Data.from_name} subscribed with $${Data.amount} ${Data.currency} per month!`)
             .setColor(Discord.resolveColor('#34c3eb'))
             .setThumbnail('https://yt3.ggpht.com/SFThBPrdZzhrnNqBfmV3ImP3xLxgRBeD9eaSi8pQUisSJfOzl0c8gQ3EqyQykEewsnQEkanp=s900-c-k-c0x00ffffff-no-rj')
-            .setDescription(Data.message ? `>>> ${Data.message}\n[View Donation](${Data.url})` : `[View Donation](${Data.url})`)
+            .setDescription(Data.message ? `>>> ${Data.message}\n[Donate to Horizons](https://ko-fi.com/horizons)` : `[Donate to Horizons](https://ko-fi.com/horizons)`)
             .setFooter({
                 text: `Thankyou for Donating 🥰`
             })
